@@ -1,0 +1,561 @@
+body {
+	background-color: white;
+}
+
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+nav, 
+.popular-articles, 
+.activities, 
+.page-header a {
+	font-family: 'Fjalla One', sans-serif;
+	color: #3c3d40;
+}
+
+
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+
+
+
+
+/*-------------------------Header----------------------*/
+
+
+header {
+	background: white;
+	width: 960px;
+	height: 81px;
+	border-bottom: 1px solid #cdcdcd;
+}
+
+
+span {
+	color: #861919;
+}
+
+
+
+h1 {
+	float: left;
+	height: 26px;
+	width: 195px;
+	margin-top: 36px;
+	margin-left: 13px;
+}
+
+
+ul {
+	width: 260px;
+	height: 23px;
+	margin-right: 13px;
+}
+
+
+li {
+	float: left;
+	margin-top: 25px;
+	margin-right: 44px;
+}
+
+
+
+.top-nav {	
+	
+	height: 21.5px;
+	width: 210px;
+	margin-left: 738px;
+}
+
+
+.mountain {
+	float: left;
+	height: 44px;
+	width: 60px;
+	margin-top: 25px;
+	margin-left: 10px;
+	margin-bottom: 11px;
+}
+
+
+
+li {
+	font-size: 18px;
+	color: #3c3d40;
+}
+
+
+h1 {
+	font-size: 30px;
+	color: #3c3d40;
+}
+
+
+header a {
+	color: #3c3d40;
+}
+
+
+
+
+/*-----------------------------MAIN------------------------------*/
+
+
+
+main {
+	background: #f9f9f9;
+}
+
+
+
+a:hover {
+	border-bottom: 1px solid;
+}
+
+
+	
+.checkoutmore a {
+	float: left;
+	font-family: arial, sans-serif;
+	color: #3c3d40; 
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: -15px;
+}
+
+
+.redirect-buttons {	
+	padding-top: 35px;
+	padding-left: 7px;
+	padding-bottom: 10px;
+	font-family: arial, sans-serif;
+	color: #3c3d40; 
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+	
+/*PAYMENT CHECKOUT*/
+main h2 {
+	font-size: 48px;
+
+}
+
+
+
+main h3 {
+	font-size: 36px;
+	margin-left: 8px;
+}
+
+
+
+.step-one,
+.step-two {
+	font-size: 16px;
+	color: #3c3d40; 
+	font-family: 'Fjalla One', sans-serif;
+}
+
+
+
+h2 img {
+	padding-left: 8px;
+	margin-top: 36px;
+}
+
+
+.stepone-box {
+	width: 440px;
+	height: 30px;
+	margin-top: 25px;
+	padding-top: 6px;
+	background-color: white;
+	text-align: center;
+	border: 4px solid #6d7444;
+	display: inline-block;
+}
+
+
+.steptwo-box {
+	width: 498px;
+	height: 32px;
+	margin-bottom: 18px;
+	padding-top: 8px;
+	text-align: center;
+	display: inline-block;
+	background-color: white;
+}
+
+
+
+.progress-bar p {
+	color: black;
+}
+
+
+
+.ordering-boxes {
+	float: left;
+}
+
+
+input, button {
+	background-color: #f9f9f9;
+	border: 1px solid #cdcdcd;
+	border-radius: 3px;
+	
+}
+
+
+
+
+form {
+	color: #8F8F8F;
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+	margin-top: 24px;
+}
+
+
+span { 
+	color: #861919;
+}
+
+
+
+.custinfo-box {
+	background-color: white;
+	width: 628px;
+	height: 555px;
+	margin-bottom: 40px;
+	margin-left: 10px;
+	margin-top: 6px;
+	padding-top: 35px;
+	margin-right: -200px;
+}
+
+
+.custinfo-box p {
+	margin-left: 10px;
+}
+
+
+
+label {
+	display: block;
+}
+
+
+.first-name,
+.last-name,
+.street-address,
+.apt-number,
+.city,
+.province,
+.postal-code,
+.phone-number {
+	display: inline-block;
+	
+}
+
+
+
+.first-name input, button {
+	width: 290px;
+	height: 34px;
+	margin-right: 20px;
+}
+
+
+.last-name input, button {
+	width: 290px;
+	height: 34px;
+}
+
+
+.street-address input, button {
+	width: 450px;
+	height: 34px;
+	margin-right: 20px;
+}
+
+
+.apt-number input, button {
+	width: 130px;
+	height: 34px;
+}
+
+
+.city input, button {
+	width: 450px;
+	height: 34px;
+	margin-right: 20px;
+}
+
+
+.province input, button {
+	width: 130px;
+	height: 34px;
+}
+
+
+.postal-code input, button {
+	width: 130px;
+	height: 34px;
+	margin-right: 20px;
+	margin-left: 10px;
+}
+
+.phone-number input, button {
+	width: 450px;
+	height: 34px;
+}
+
+
+.continue-button input, button {
+	width: 300px;
+	height: 34px;
+	margin-left: 170px;
+	border: none;
+	border-radius: 0px;
+}
+
+
+
+.first-name,
+.street-address,
+.city,
+.postal-code label {
+	margin-left: 10px;
+}
+
+
+.continue-button button {
+	color: white;
+}
+
+
+button {
+	background-color: #861919;
+}
+
+
+
+.street-address {
+	margin-top: 30px;
+}
+
+
+.city {
+	margin-top: 30px;
+}
+
+
+.postal-code {
+	margin-top: 30px;
+}
+
+
+.continue-button {
+	margin-top: 45px;
+	margin-bottom: 90px;
+}
+
+
+
+.ordersum-box {
+	float: right;
+	width: 280px;
+	height: 421px;
+	padding-top: 30px;
+	padding-left: 12px;
+	margin-top: 6px;
+	margin-right: 10px;
+	background-color: white;
+
+}
+
+
+
+.ordersum-box p {
+	color: #33353e;
+	font-family: Arial, sans-serif;
+}
+
+
+
+.ordersum-box img {
+	margin-left: -12px;
+	margin-top: 15px;
+}
+
+
+.product-name {
+	float: right;
+	width: 170px;
+	padding-left: -20px;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+
+
+.ordersum-box .initial-price {
+	border-bottom: 2px solid #cdcdcd;
+	height: 37px;
+	text-align: right;
+	font-family: Arial, sans-serif;
+	color: #861919;
+	width: 265px;
+	margin-right: 12px;
+	margin-top: -35px;
+	float: right;
+
+}
+
+
+
+
+.shipping {
+	;
+}
+
+
+
+.subtotal {
+	height: 40px;
+	margin-top: 22px;
+}
+
+
+
+.subtotal-price {
+	float: right;
+	margin-right: 10px;
+	margin-top: -40px;  
+
+}
+
+
+.shipping.price {
+	float: right;
+	margin-right: 10px;
+	margin-top: -40px;	
+}
+
+.total-cost {
+	width: 175px;
+	height: 38px;
+	font-weight: bold;
+ 	background-color: #cdcdcd;
+ 	margin-top: 35px;
+ 	padding-top: 10px;
+ 	padding-left: 5px;
+ 	margin-left: -5px;
+
+}
+
+
+}
+
+.total-number {
+	float: right;
+	width: 86px;
+	height: 38px;
+	font-weight: bold;
+ 	background-color: #cdcdcd;
+ 	margin-top: -48px;
+ 	margin-right: 6px;
+ 	padding-left: 3px;
+	padding-top: 10px;
+
+}
+
+
+
+
+
+/*--------------------------FOOTER-------------------------*/
+
+
+
+
+footer {
+	background-color: #861919;
+	height: 308px;
+}
+
+
+footer h3 {
+	text-align: center;
+	font-size: 36px;
+	color: white;
+	padding-top: 53.5px; 
+}
+
+
+
+footer p {
+	text-align: center;
+	font-size: 16px;
+	color: white;
+	padding-bottom: 28px;
+}
+
+.footer-nav {
+	text-align: center;
+}
+
+
+
+
+footer img {
+	margin-right: 19px;	
+}
+
+
+
+footer ul {
+	text-align: center;
+	width: 700px;
+	margin-left: 224px;
+}
+
+
+
+footer li{
+	float: left;
+	margin-right: 9px;
+}
+
+	
+ul a {
+	text-decoration: none;
+}
+
+
+
+/*---------------------Hidden--------------------*/
+
+
+
+.hidden {
+	display: none;
+}

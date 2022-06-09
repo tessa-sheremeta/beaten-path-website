@@ -1,0 +1,448 @@
+body {
+	background-color: white;
+}
+
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+
+
+h1,
+h2,
+h3,
+h4, 
+nav, 
+.popular-articles, 
+.activities, 
+.page-header a {
+	font-family: 'Fjalla One', sans-serif;
+	color: #3c3d40;
+}
+
+
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+
+
+
+
+/*-------------------------Header----------------------*/
+
+
+header {
+	background: white;
+	width: 960px;
+	height: 81px;
+	border-bottom: 1px solid #cdcdcd;
+}
+
+
+span {
+	color: #861919;
+}
+
+
+
+h1 {
+	float: left;
+	height: 26px;
+	width: 195px;
+	margin-top: 36px;
+	margin-left: 13px;
+}
+
+
+ul {
+	width: 260px;
+	height: 23px;
+	margin-right: 13px;
+}
+
+
+li {
+	float: left;
+	margin-top: 25px;
+	margin-right: 44px;
+}
+
+
+
+.top-nav {	
+	
+	height: 21.5px;
+	width: 210px;
+	margin-left: 738px;
+}
+
+
+.mountain {
+	float: left;
+	height: 44px;
+	width: 60px;
+	margin-top: 25px;
+	margin-left: 10px;
+	margin-bottom: 11px;
+}
+
+
+
+li {
+	font-size: 18px;
+	color: #3c3d40;
+}
+
+
+h1 {
+	font-size: 30px;
+	color: #3c3d40;
+}
+
+
+header a {
+	color: #3c3d40;
+}
+
+
+
+
+/*-----------------------------MAIN------------------------------*/
+
+
+
+main {
+	background: #f9f9f9;
+}
+	
+	
+	
+.home a {
+	font-family: arial, sans-serif;
+	color: #3c3d40; 
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+
+}
+
+
+
+a:hover {
+	border-bottom: 1px solid;
+}
+
+
+.shop {
+
+	float: left;
+	padding-left: 4px;
+	margin-top: -20px;
+	padding-top: 20px;
+}
+
+	
+.shop a {
+	float: left;
+	font-family: arial, sans-serif;
+	color: #3c3d40; 
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: -15px;
+	
+
+}
+
+
+
+.redirect-buttons {	
+	padding-top: 35px;
+	padding-left: 7px;
+	padding-bottom: 10px;
+	
+}
+
+
+
+.background-img {
+	background-image: url(../img/shop-title-bkgnd.jpg);
+	background-repeat: no-repeat;
+	background-position: -8px 0px;
+	width: 960px;
+	height: 55px;
+	padding-top: 160px;
+	
+
+
+}
+
+
+.box-text {
+	float: left;
+	background-color: white;
+	width: 119px;
+	height: 71px;
+	margin-left: 20px;
+	padding-top: 4px;
+	padding-left: 24px;
+	/*-------Avoid negative margin value, ask how to fix this to move SHOP box
+	up onto banner image-------*/
+	margin-top: -85px;
+	
+}
+
+
+main h2 {
+	font-size: 48px;
+
+
+}
+
+
+
+main h3 {
+	font-size: 36px;
+	border-bottom: 12px solid #861919;
+	width: 640px;
+	margin-left: 8px;
+}
+
+
+/*--------------------------------------------------------------------------------*/
+
+
+.red-osprey,
+.grey-osprey,
+.olive-osprey,
+.darkgrey-osprey,
+.navy-mckinley,
+.black-mckinley,
+.red-tent,
+.orange-tent {
+
+	float: left;
+	width: 220px;
+	height: 160px;
+	padding-top: 266px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+
+
+
+
+h4 {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+
+
+main p {
+	color: #861919;
+	font-weight: bold;
+	text-align: left;
+
+}
+
+
+.product,
+.price {
+	margin-left: 10px;
+}
+
+
+
+
+
+.red-osprey {
+	background-image: url(../img/red-osprey.jpg);
+	background-repeat: no-repeat;
+	background-color: white;
+	width: 220px;
+	margin-left: 6px;
+	margin-right: 10px;
+	
+}
+
+
+
+
+.grey-osprey {
+	background-image: url(../img/grey-osprey.jpg);
+	background-repeat: no-repeat;
+	background-color: white;
+	width: 220px;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
+
+
+
+
+.olive-osprey {
+	background-image:  url(../img/olive-osprey.jpg);
+	background-repeat: no-repeat;
+	background-color: white;
+	width: 220px;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
+
+
+
+
+
+.darkgrey-osprey {
+	background-image:  url(../img/darkgrey-osprey.jpg);
+	background-repeat: no-repeat;
+	background-color: white;
+	width: 220px;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
+
+
+
+
+
+.navy-mckinley {
+	background-image:  url(../img/navy-mckinley.jpg);
+	background-repeat: no-repeat;
+	background-color: white;
+	width: 220px;
+	margin-left: 6px;
+	margin-right: 10px;
+	
+}
+
+
+
+
+
+.black-mckinley {
+	background-image:  url(../img/black-mckinley.jpg);
+	background-repeat: no-repeat;
+	background-color: white;
+	width: 220px;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
+
+
+
+
+
+.red-tent {
+	background-image:  url(../img/red-tent.jpg);
+	background-repeat: no-repeat;
+	background-color: white;
+	width: 220px;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
+
+
+
+
+
+.orange-tent {
+	background-image:  url(../img/orange-tent.jpg);
+	background-repeat: no-repeat;
+	background-color: white;
+	width: 220px;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
+
+
+/*--------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+/*--------------------------FOOTER-------------------------*/
+
+
+
+
+footer {
+	background-color: #861919;
+	height: 308px;
+}
+
+
+footer h3 {
+	text-align: center;
+	font-size: 36px;
+	color: white;
+	padding-top: 53.5px; 
+}
+
+
+
+footer p {
+	text-align: center;
+	font-size: 16px;
+	color: white;
+	padding-bottom: 28px;
+}
+
+.footer-nav {
+	text-align: center;
+}
+
+
+
+
+footer img {
+	margin-right: 19px;	
+}
+
+
+
+footer ul {
+	text-align: center;
+	width: 700px;
+	margin-left: 224px;
+}
+
+
+
+footer li{
+	float: left;
+	margin-right: 9px;
+}
+
+	
+ul a {
+	text-decoration: none;
+}
+
+
+
+/*---------------------Hidden--------------------*/
+
+
+
+.hidden {
+	display: none;
+}
